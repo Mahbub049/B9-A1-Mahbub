@@ -1,0 +1,139 @@
+/* Main Styling */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+/* Header */
+.banner-img{
+        background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('/resources/Banner\ Image.png');
+        background-repeat: no-repeat;
+        border-radius: 16px;
+        width: 82.50%;
+        height: 600px;
+        margin: 50px 140px;
+        background-size: 100% 100%, cover;
+        background-position: center;
+}
+
+.header-small{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 177px 531px 16px 530px;
+}
+
+.header-big{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding: 0px 344px 177px 344px;
+}
+
+/* Section Style */
+.section-gap-first{
+    margin: 120px 140px;
+    text-align: center;
+}
+
+.section-subheading{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+/* Offer Section */
+.offer-big-heading{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+.offer-subheading{
+    text-align: center;
+    margin-top: 48px;
+}
+.offer-categories{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.offer-img{
+    width: 802.9px;
+    height: 500px;
+}
+
+/* Section Banner Images */
+.section-banner{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('/resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 82.50%;
+    height: 600px;
+    background-size: 100% 100%, cover;
+    background-position: center;
+}
+
+.section-gap-second{
+    margin: 120px 140px;
+    padding: 126px 0 142px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.midnight-party-heading{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.midnight-party-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-bottom: 49px;
+}
+
+.midnight-party-btn{
+    border-radius: 5px;
+    background: transparent;
+    color:  #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px 19px 36px;
+    border: 0;
+}
+
+.midnight-width{
+    width: 697px;
+}
+
+.section-img-midnight{
+    width: 319.83px;
+    height: 464.662px;
+}
