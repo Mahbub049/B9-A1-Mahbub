@@ -11,7 +11,7 @@ body{
 
 /* Header */
 .banner-img{
-        background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('/resources/Banner\ Image.png');
+        background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('./resources/Banner\ Image.png');
         background-repeat: no-repeat;
         border-radius: 16px;
         width: 82.50%;
@@ -69,11 +69,13 @@ body{
     margin-top: 48px;
 }
 .offer-categories{
-    color: #070211;
-    text-align: center;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
+}
+.offer-color{
+    color: #070211;
+    text-align: center;
     margin-bottom: 48px;
 }
 .offer-img{
@@ -83,7 +85,7 @@ body{
 
 /* Section Banner Images */
 .section-banner{
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('/resources/Vectorrr.png');
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('./resources/Vectorrr.png');
     background-repeat: no-repeat;
     border-radius: 16px;
     width: 82.50%;
@@ -142,7 +144,7 @@ body{
 
 /* Place Details */
 .place-info{
-    margin: 120px 140px;
+    margin: 10px 140px;
         background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
         border-radius: 16px;
         width: 82.50%;
@@ -188,3 +190,96 @@ body{
     font-weight: 700;
     line-height: normal;
 }
+.year-color{
+    color: #F00;
+    margin-bottom: 16px;
+}
+
+/* Coming Soon Section */
+/* .coming-soon{
+    display: flex;
+    /* gap: 24px; */
+
+
+.coming-gap{
+    margin: 10px 140px 120px;
+    /* padding: 126px 0 142px 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-merri-heading{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.section-description-new{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.img-new-year{
+    margin-top: 43px;
+}
+.right-para{
+    margin-top: 16px;
+    width: 276px;
+}
+.left-para{
+    width: 393px;
+}
+.img-border{
+    border-radius: 470px;
+    border: 15px solid #F00;
+    padding: 50px;
+}
+.img-circle{
+    width: 364.844px;
+    height: 364.844px;
+}
+
+/* Functional Section */
+.holiday-section{
+    margin: 120px 140px;
+    padding: 126px 0 142px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.functional-color{
+    color: #070211;
+    margin-bottom: 16px;
+}
+.heading-color{
+    color: #F00;
+}
+.heading-style-color{
+    color: #070211;
+    margin-bottom: 22px;
+
+}
+.holiday-text{
+    text-align: center;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+ .holiday{
+    width: 1068px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+} 
