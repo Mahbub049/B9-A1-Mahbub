@@ -11,7 +11,7 @@ body{
 
 /* Header */
 .banner-img{
-        background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('./resources/Banner\ Image.png');
+        background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('../resources/Banner\ Image.png');
         background-repeat: no-repeat;
         border-radius: 16px;
         width: 82.50%;
@@ -85,7 +85,7 @@ body{
 
 /* Section Banner Images */
 .section-banner{
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('./resources/Vectorrr.png');
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     border-radius: 16px;
     width: 82.50%;
@@ -249,10 +249,10 @@ body{
 /* Functional Section */
 .holiday-section{
     margin: 120px 140px;
-    padding: 126px 0 142px 10%;
-    display: flex;
+    padding: 126px 0 142px 10px;
+    /* display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around; */
 }
 .functional-color{
     color: #070211;
@@ -272,6 +272,7 @@ body{
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
+    margin-bottom: 64px;
 }
  .holiday{
     width: 1068px;
@@ -279,7 +280,21 @@ body{
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 32px; /* 160% */
+    line-height: 32px;
+    margin: 0 auto;
 } 
+
+/* Image Stylings */
+.image-optional{
+    position: relative;
+    background-image: url('../resources/Rectangle\ 1.png'), url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: top right, bottom center;
+    background-size: auto, contain;
+    padding: 23px;
+}
+.optional-two{
+    position: absolute;
+    padding: 76.97px 68px 50.31px 210px;
+}
