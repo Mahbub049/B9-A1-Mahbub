@@ -309,9 +309,11 @@ body{
 }
 .image-one{
     display: flex;
-    width: 1524px;
+    width: 524px;
+    height: 550px;
+    gap: 24px;
     justify-content: space-between;
-    padding-bottom: 100px;
+    padding-bottom: 24px;
 }
 .image-one:hover img:hover, .image-two:hover img:hover{
     opacity: 0.75;
@@ -319,7 +321,10 @@ body{
 
 .image-two{
     display: flex;
-    width: 1524px;
+    /* width: 1524px; */
+    width: 524px;
+    height: 550px;
+    gap: 24px;
     justify-content: space-between;
 }
 
